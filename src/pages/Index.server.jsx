@@ -44,7 +44,11 @@ export default function Index() {
       <TickerTape text={['Free shipping to the U.S. and Canada']} />
 
       <ProductSplit product={products[0]} />
+
       <About />
+      <div className="bg-white py-2">
+        <opinew-plugin type="carousel" domain="opinew.myshopify.com" />
+      </div>
       <SocialShare />
     </Layout>
   );

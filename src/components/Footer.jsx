@@ -19,7 +19,7 @@ export default function Footer() {
           <Link to="/pages/refund-policy">Refund policy</Link>
         </p>
       </section>
-      <section className="py-6 space-y-3 font-title text-mlg sm:text-lg lg:flex lg:space-y-0 lg:py-0 lg:space-x-6 lg:justify-self-end">
+      <section className="py-6 space-y-3 font-title text-mlg sm:text-lg lg:flex lg:space-y-0 lg:py-0 lg:space-x-6 lg:justify-self-end justify-end flex-wrap">
         <p>
           <Link to="/pages/about">About Shopify</Link>
         </p>
@@ -35,6 +35,12 @@ export default function Footer() {
             Privacy Policy
           </a>
         </p>
+        <div
+          className="pa-2 w-100 fill-width flex-grow-1 flex justify-end"
+          style={{width: '100%'}}
+        >
+          <opinew-plugin type="badge" domain="opinew.myshopify.com" />
+        </div>
       </section>
       <section className="flex space-x-6 py-base lg:pt-16">
         <a

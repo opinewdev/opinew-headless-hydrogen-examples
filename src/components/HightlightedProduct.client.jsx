@@ -63,6 +63,12 @@ export default function HighlightedProduct({product}) {
                   );
                 }}
               </SelectedVariantPrice>
+              <div className="pb-2 text-white">
+                <opinew-plugin
+                  type="product-stars"
+                  product-id="4901047402567"
+                />
+              </div>
               <div className="grid grid-cols-3 gap-3">
                 <CountButton
                   className="w-full px-4 bg-white btn button hover:bg-white hover:text-secondary"
@@ -76,6 +82,7 @@ export default function HighlightedProduct({product}) {
                   available={available}
                 />
               </div>
+
               <div className="py-5">
                 <p className="mb-2 text-sm text-left text-white">
                   Free delivery to the U.S. and Canada. Please allow 4 to 6

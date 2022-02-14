@@ -58,6 +58,13 @@ export default function ProductDetails({data}) {
               }}
             </Metafield>
           </section>
+          <div className="bg-white">
+            <opinew-plugin
+              type="product"
+              product-id="4901047402567"
+              domain="opinew.myshopify.com"
+            />
+          </div>
           <ProductFaq product={product} />
         </Product>
       </Layout>
